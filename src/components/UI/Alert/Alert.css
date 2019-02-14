@@ -1,0 +1,17 @@
+.Alert {
+    text-align: left;
+    position: fixed;
+    z-index: 500;
+    background-color: red;
+    width: 30%;
+    box-shadow: 1px 1px 1px white;
+    top: 10%;
+}
+
+@media (min-width: 600px) {
+    .Alert {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+
+}
